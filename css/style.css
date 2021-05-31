@@ -1,0 +1,135 @@
+/*header section*/
+
+.header{
+    background: rgba(128, 128, 128,.5);
+}
+.header img {
+    width: 120px;
+    height: auto;
+}
+.primery-manu ul{
+
+}
+.primery-manu ul li{
+    display: inline-block;
+}
+.primery-manu ul li a {
+    display: block;
+    padding: 6px 32px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* banner section*/
+.banner {
+    background-image: url(../img/pexels-jessica-lewis-583846.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-size: cover;
+}
+.banner-text h1{
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    display: inline-block;
+    font-size: 38px;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+.banner-text h2 {
+    font-size: 44px;
+    background: rgba(128,128,128,.4);
+    max-width: 635px;
+    margin: auto;
+    padding: 5px 27px;
+    border-radius: 5px;
+    margin-top: -8px;
+}
+
+
+/* about us*/
+.about{
+}
+.about-text h2{
+        margin-top: 10px;
+        font-size: 40px;
+}
+.about-text p{
+    font-size: 23px;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+/* service section*/
+.service{
+    margin-top: 50px;
+}
+.sr-i {
+    margin: auto;
+    border: 1px solid black;
+    padding: 17px 40px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.sr-i span {
+    text-align: center;
+    font-size: 35px;
+    background: gray;
+    margin: auto;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    display: block;
+    border-radius: 20px 0 20px 0;
+}
+.sr-i h3{
+    margin: 20px 0;
+    font-size: 26px;
+}
+ 
+
+/*blog item*/
+.blog-item img {
+    float: left;
+    width: 115px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    display: inline-block;
+}
+.blog{
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.blog-text h2 {
+    padding-left: 39px;
+    font-size: 52px;
+}
+.blog-text li{
+    border: 1px solid black;
+    list-style: none;
+   padding: 12px 33px;
+   border-radius: 5px;
+    margin-top: 3px;
+}
+
+/* footer section*/
+.footer{
+    background:grey;
+    max-height: 100%;
+}
+.social-manu{
+    text-align: right;
+}
+.social-manu li{ 
+    display: inline-block;
+}
+.social-manu li a{
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+}
